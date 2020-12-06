@@ -15,7 +15,6 @@ export class HomeComponent implements OnInit {
     this.pokeService.getPoke().subscribe(pokes => {
       this.initPoke = pokes;
       this.initPoke = this.initPoke.results;
-     });
+    });
   }
-
 }
